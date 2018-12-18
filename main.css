@@ -1,0 +1,114 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/*Home*/
+
+nav, footer {
+    width: 100%;
+    background-color: #000;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+    nav, footer {
+        flex-direction: column;
+    }
+}
+
+nav div, footer div {
+    margin: 15px;
+}
+
+i {
+    font-size:30px;
+    color:white;
+}
+
+i:hover {
+    color: aqua;
+}
+
+#banner {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/orig.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #FFF;
+}
+
+#banner p {
+    font-size: 14px;
+}
+
+#banner a {
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+#banner a:hover {
+    color: aqua;
+    border: 1px solid aqua;
+
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#gallery-section h2 {
+    text-align: center;
+}
+
+/*Contuct Us*/
+.container {
+    margin: 20px;
+}
+
+.heading {
+    font-weight: 100;
+}
+
+.inputs {
+    width: 200px;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #eee;
+    border: 1 px solid #ccc;
+    border-radius: 3px;
+}
+
+.messagebox {
+    width: 430px;
+    min-height: 200px;
+}
+
+.submit {
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(161, 56, 56);
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+
