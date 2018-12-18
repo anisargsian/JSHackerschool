@@ -1,5 +1,5 @@
 # HTML
-- Semantic tags (e.g. section, article, nav, main)
+- Semantic tags (section, nav)
 - Forms
 
 ## CSS
